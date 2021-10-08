@@ -1,0 +1,35 @@
+body{
+    display: block;
+}
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.text,.text1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(71, 223, 202);
+    text-align: center;
+}
+.tab{
+    display: flex;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border: 0px solid black;
+    margin-right: 30px;
+    padding: 15px;
+}
+a:hover{
+    color: black;
+    background-color: rgb(243, 73, 73);
+}
